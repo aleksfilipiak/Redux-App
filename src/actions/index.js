@@ -6,7 +6,8 @@ export const CREATE_USER = "create_user";
 export const DELETE_USER = "delete_user";
 
 // const ROOT_URL = "http://jsonplaceholder.typicode.com";
-const ROOT_URL = "http://localhost:3004";
+//const ROOT_URL = "http://localhost:3004";
+const ROOT_URL = "https://aleksfilipiak.github.io/Redux-App/db.json"
 
 export function fetchUsers(){
     const request = axios.get(`${ROOT_URL}/users`);
