@@ -7,8 +7,8 @@ export const DELETE_USER = "delete_user";
 
 // const ROOT_URL = "http://jsonplaceholder.typicode.com";
 //const ROOT_URL = "http://localhost:3004";
-// const ROOT_URL = "https://aleksfilipiak.github.io/Redux-App/db.json"
-const ROOT_URL = "https://raw.githubusercontent.com/aleksfilipiak/Redux-App/master/dist/db.json"
+ const ROOT_URL = "db.json"
+//const ROOT_URL = "https://raw.githubusercontent.com/aleksfilipiak/Redux-App/master/dist/db.json"
 
 
 export function fetchUsers(){
