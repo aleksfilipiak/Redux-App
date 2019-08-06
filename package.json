@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d src"
   },
   "author": "Ola Filipiak",
   "license": "ISC",
+  "homepage": "https://aleksfilipiak.github.io/Redux-App/",
   "dependencies": {
     "axios": "^0.19.0",
+    "gh-pages": "^2.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "redux": "^4.0.4",
